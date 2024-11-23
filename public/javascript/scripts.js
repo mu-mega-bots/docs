@@ -1,5 +1,5 @@
 // Load Navbar
-fetch('./elements/navbar.html')
+fetch('./public/elements/navbar.html')
   .then(response => response.text())
   .then(data => {
     document.getElementById('navbar').innerHTML = data;
@@ -7,7 +7,7 @@ fetch('./elements/navbar.html')
 
 // Fetch the JSON data
 let docs = {};
-fetch('../public/static/docs.json')
+fetch('./public/static/docs.json')
   .then(response => response.json())
   .then(data => {
     docs = data;
