@@ -119,8 +119,11 @@ linear: (xp) => Math.floor(xp / 100)
   * `Level = XP / 100` (if XP < 1000)
   * `Level = (XP - 1000) / 200 + 10` (if 1000 <= XP < 5000)
   * `Level = (XP - 5000) / 500 + 30` (if XP >= 5000)
-* **Growth**: _Piecewise linear growth_.
-  * This algorithm has different growth rates in different XP ranges: slower growth at first, followed by progressively faster growth.
+* **Growth**: _Tiered Growth_
+  * This algorithm has different growth rates in different XP ranges: faster growth at first, followed by slower growth.
+* **Levels from 0 to 999 XP**: Increase by 1 for every 100 XP.
+* **Levels from 1000 to 4999 XP**: Increase by 1 for every 200 XP, starting at level 10.
+* **Levels from 5000 XP onwards**: Increase by 1 for every 500 XP, starting at level 30.
 
 ### Polynomial
 
