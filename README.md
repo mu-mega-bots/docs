@@ -17,7 +17,7 @@ layout:
 
 Hello and welcome to the docs. You are probably here to get support.
 
-We highly recommend checking the [<mark style="color:green;">Mega Bots Site</mark>](https://mu-mega-bots.github.io/), [<mark style="color:red;">Revolt Server</mark>](https://rvlt.gg/d921cr9H), and/or our [<mark style="color:blue;">Discord Server</mark>](https://discord.gg/J9N6evPF8Y)
+We highly recommend checking the [<mark style="color:green;">Mega Bots Site</mark>](https://mu-mega-bots.github.io/), Our [<mark style="color:red;">Revolt Server</mark>](https://rvlt.gg/d921cr9H), and Our [<mark style="color:blue;">Discord Server</mark>](https://discord.gg/J9N6evPF8Y)
 
 ## Bots Section
 
