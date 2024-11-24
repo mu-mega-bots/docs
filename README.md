@@ -21,12 +21,12 @@ We highly recommend checking the [<mark style="color:green;">Mega Bots Site</mar
 
 ## Bots Section
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+{% embed url="https://mu-mega-bots.github.io/level/" %}
+Levels Website
+{% endembed %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+{% embed url="https://app.revolt.chat/bot/01JD5XY5Q11YEDZH68P3JFQK8H" %}
+Add Level to your Revolt Server
+{% endembed %}
 
 ## More to come
