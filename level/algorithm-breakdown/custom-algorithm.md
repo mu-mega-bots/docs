@@ -36,6 +36,6 @@ An example of a valid function
 (xp) => Math.floor(0.1 * Math.sqrt(xp))
 ```
 
-The proper format to enter the qbove algorithm would be `l!set calgorithm "(xp) => Math.floor(0.1 * Math.sqrt(xp))"
+The proper format to enter the qbove algorithm would be `l!set calgorithm "(xp) => Math.floor(0.1 * Math.sqrt(xp))"`
 
 We understand that this can be a difficult feature to understand but if you want any help please consider joining the support server for Mega Utilities that represents the platform you're using
