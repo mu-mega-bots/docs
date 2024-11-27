@@ -142,7 +142,7 @@ The calgorithm setting allows you to define a custom algorithm. Read more below.
 
 `l!reset xp`
 
-`l!reset xp <@`01H2XFFCRQKEKY3ZXS45GW4ERH>
+`l!reset xp <@01H2XFFCRQKEKY3ZXS45GW4ERH>`
 
 `l!reset xp 01H2XFFCRQKEKY3ZXS45GW4ERH`
 
