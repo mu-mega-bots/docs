@@ -70,7 +70,7 @@ The levelreward setting allows you to define a or multiple role rewards for a sp
 
 `l!set levelreward add 2 01JD8ZXMQ2EC4R4PCHTCF963ST`
 
-`l!set levelreward delete` 2
+`l!set levelreward delete 2`
 
 `l!set levelreward delete-r 01JD8ZXMQ2EC4R4PCHTCF963ST`
 
