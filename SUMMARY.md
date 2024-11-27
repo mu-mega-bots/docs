@@ -14,3 +14,4 @@
 * [Level](level/level.md)
 * [Algorithm Breakdown](level/algorithm-breakdown/README.md)
   * [Custom Algorithm](level/algorithm-breakdown/custom-algorithm.md)
+* [Command Breakdown](level/command-breakdown.md)

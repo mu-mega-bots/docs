@@ -30,3 +30,7 @@ Add Level to your Server
 {% content-ref url="algorithm-breakdown/" %}
 [algorithm-breakdown](algorithm-breakdown/)
 {% endcontent-ref %}
+
+{% content-ref url="command-breakdown.md" %}
+[command-breakdown.md](command-breakdown.md)
+{% endcontent-ref %}
