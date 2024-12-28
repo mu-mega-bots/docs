@@ -19,6 +19,8 @@ layout:
 This feature is quite advanced and requires knowledge of JavaScript
 
 This feature is also not heavily tested but does work
+
+## We do NOT support max levels with custom algorithms. Support may be added in the future.
 {% endhint %}
 
 {% hint style="info" %}
