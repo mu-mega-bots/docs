@@ -149,7 +149,7 @@ The calgorithm setting allows you to define a custom algorithm. Read more below.
 
 `l!set calgorithm "(xp) => Math.floor(0.1 * Math.sqrt(xp))"`
 
-## XP
+## Reset
 
 `l!reset xp`
 
@@ -157,4 +157,4 @@ The calgorithm setting allows you to define a custom algorithm. Read more below.
 
 `l!reset xp 01H2XFFCRQKEKY3ZXS45GW4ERH`
 
-The same format applies to the other commands just replace 'xp' with levels or all
+The same format applies to the other commands just replace `xp` with `levels` or `all`
