@@ -15,3 +15,8 @@
 * [Algorithm Breakdown](level/algorithm-breakdown/README.md)
   * [Custom Algorithm](level/algorithm-breakdown/custom-algorithm.md)
 * [Command Breakdown](level/command-breakdown.md)
+
+## Announcements
+
+* [Announcements](announcements/announcements.md)
+* [Common Issues and Fixes](announcements/common-issues-and-fixes.md)
