@@ -1,5 +1,16 @@
 ---
 description: Stop alt accounts from joining your community with ease
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Anti-Alt

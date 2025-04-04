@@ -1,5 +1,16 @@
 ---
 description: Block hard-coded invite links with ease
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # inviteBlocker

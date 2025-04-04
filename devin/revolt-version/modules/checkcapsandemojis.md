@@ -1,5 +1,16 @@
 ---
 description: Tired of loads of caps and emojis?
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # checkCapsAndEmojis

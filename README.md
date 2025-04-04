@@ -29,4 +29,8 @@ We highly recommend checking the [<mark style="color:green;">Mega Bots Site</mar
 [level.md](level/level.md)
 {% endcontent-ref %}
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
 ## More to come
