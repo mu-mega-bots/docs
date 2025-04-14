@@ -29,8 +29,8 @@ We highly recommend checking the [<mark style="color:green;">Mega Bots Site</mar
 [level.md](level/level.md)
 {% endcontent-ref %}
 
-{% content-ref url="devin/devin.md" %}
-[devin.md](devin/devin.md)
+{% content-ref url="devin/devin-revolt.md" %}
+[devin-revolt.md](devin/devin-revolt.md)
 {% endcontent-ref %}
 
 ## More to come
