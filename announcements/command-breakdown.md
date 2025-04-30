@@ -32,3 +32,4 @@ In the command below \<true> represents the DM argument. If you put true you wil
 
 `a!psubscribe <name>` - unsubscribe from a ping
 
+`a!pinglist` - list all the servers "pings" that you can subscribe to
