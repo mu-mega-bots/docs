@@ -19,13 +19,16 @@
 ## Announcements
 
 * [Announcements](announcements/announcements.md)
+* [Command Breakdown](announcements/command-breakdown.md)
 * [Common Issues and Fixes](announcements/common-issues-and-fixes.md)
 
 ## Devin
 
 * [Devin - Revolt](devin/devin-revolt.md)
 * [Revolt Version](devin/revolt-version/README.md)
-  * [Command Breakdown](devin/revolt-version/command-breakdown.md)
+  * [Command Breakdown](devin/revolt-version/command-breakdown/README.md)
+    * [Bot Category](devin/revolt-version/command-breakdown/bot-category.md)
+    * [Configuration Category](devin/revolt-version/command-breakdown/configuration-category.md)
   * [Modules](devin/revolt-version/modules/README.md)
     * [Anti-Alt](devin/revolt-version/modules/anti-alt.md)
     * [checkBadWords](devin/revolt-version/modules/checkbadwords.md)

@@ -21,8 +21,6 @@ Announcements allows you to make a broadcast channel so other servers can subscr
 Announcements Website
 {% endembed %}
 
-
-
 {% embed url="https://app.revolt.chat/bot/01JCA0PX86C21CPM0KSWQXZ8CX" %}
 Add Announcements to your server
 {% endembed %}
@@ -32,3 +30,7 @@ Add Announcements to your server
 {% hint style="warning" %}
 Announcements not working? Revolt has a very weird permissions system as I (the bot developer) discovered. Please go to [this page to learn about common issues](common-issues-and-fixes.md).
 {% endhint %}
+
+{% content-ref url="command-breakdown.md" %}
+[command-breakdown.md](command-breakdown.md)
+{% endcontent-ref %}

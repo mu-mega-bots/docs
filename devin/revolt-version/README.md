@@ -17,8 +17,8 @@ layout:
 
 
 
-{% content-ref url="command-breakdown.md" %}
-[command-breakdown.md](command-breakdown.md)
+{% content-ref url="command-breakdown/" %}
+[command-breakdown](command-breakdown/)
 {% endcontent-ref %}
 
 
