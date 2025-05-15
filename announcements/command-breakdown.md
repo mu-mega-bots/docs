@@ -35,6 +35,8 @@ The <> represent arguments and are only required within the create and remove pi
 
 `a!unsubscribe channel-id` use this to stop recieving announcemenets from a channel's announcement channel (works the same way as setannouncement just different function)
 
+`a!ping-[ping]` - replace [ping] with the name of the ping you wish to trigger. This is a server owner only command. Do not use the [] in the command.
+
 {% hint style="info" %}
 In the command below \<true> represents the DM argument. If you put true you will receive a DM rather than a ping when the command to ping is used. The default value is false.
 {% endhint %}
