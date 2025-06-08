@@ -33,12 +33,18 @@ reset: delete
   * excludedchannels \<add/delete> \<channel mention/ID>
   * excludedusers \<add/delete> \<user mention/ID>
   * levelreward \<add/delete/delete-r> \<level number> \<role ID>
-  * channel \<channel mention>
+  * channel (or lvlchannel) \<channel mention>
   * current
   * prefix \<prefix>
   * xpcooldown \<number>
   * xppermessage \<number>
   * maxlevel \<number>
+  * xprandom \<true|false>
+  * xprandomrange \<min> \<max>
+  * lvlmessageinchannel \<true|false>
+  * lvlupusedms \<true|false>
+  * xpboostrole \<roleId> \<percent> OR l!settings xpboostrole remove \<roleId>
+  * xp \<add/remove> \<user>
   * algorithm \<algorithm>
   * calgorithm <"the algorithm">
 
