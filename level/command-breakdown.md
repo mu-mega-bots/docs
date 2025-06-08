@@ -43,6 +43,7 @@ reset: delete
   * xprandomrange \<min> \<max>
   * lvlmessageinchannel \<true|false>
   * lvlupusedms \<true|false>
+  * firsttolevelchannel \<channel>
   * xpboostrole \<roleId> \<percent> OR l!settings xpboostrole remove \<roleId>
   * xp \<add/remove> \<user>
   * algorithm \<algorithm>
