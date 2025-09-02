@@ -1,16 +1,5 @@
 ---
 description: Fixes and explanations of common issues
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Common Issues and Fixes

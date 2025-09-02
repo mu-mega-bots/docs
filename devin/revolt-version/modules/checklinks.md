@@ -1,16 +1,5 @@
 ---
 description: Easily stop members from sending links that you don't want
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # checkLinks

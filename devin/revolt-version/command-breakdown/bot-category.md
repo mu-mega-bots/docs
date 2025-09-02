@@ -1,16 +1,5 @@
 ---
 description: Commands under the Bot Category
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Bot Category

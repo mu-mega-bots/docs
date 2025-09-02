@@ -1,22 +1,15 @@
 ---
 description: Let's breakdown the algorithm options
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Algorithm Breakdown
 
 {% hint style="info" %}
 The value `(xp)`in each function equals the current users XP
+
+NOTICE: All graphs below graph each algorithm. The xp value was set at a maximum 20,000 for the graphs.
+
+[The tool we used to generate the graphs is open source](https://github.com/mu-mega-bots/XP-Graph-Tool)
 {% endhint %}
 
 For custom algorithms go to the page below
@@ -35,15 +28,19 @@ For custom algorithms go to the page below
 * **Growth**: _Slower at first, accelerating as XP increases_.
   * This is a square root function, so the level grows slowly at low XP but accelerates as XP increases.
 
+<figure><img src="../../.gitbook/assets/default-level.png" alt=""><figcaption></figcaption></figure>
+
 ### Linear
 
 ```javascript
-linear: (xp) => Math.floor(xp / 100)
+(xp) => Math.floor(xp / 100)
 ```
 
 * **Formula**: `Level = XP / 100`
 * **Growth**: _Linear growth_.
   * Level increase is consistent every 100 XP equals one level.
+
+<figure><img src="../../.gitbook/assets/linear-level.png" alt=""><figcaption></figcaption></figure>
 
 ### Exponential
 
@@ -55,6 +52,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Growth**: _Rapid growth at lower XP, slowing as XP increases_.
   * This logarithmic growth increases quickly at lower XP values, but levels off as XP grows.
 
+<figure><img src="../../.gitbook/assets/Exponential-level.png" alt=""><figcaption></figcaption></figure>
+
 ### Random
 
 ```javascript
@@ -65,6 +64,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Growth**: _Random growth_.
   * The level is determined randomly within a range, adding a bit of unpredictability to the level-up process.
 
+<figure><img src="../../.gitbook/assets/random-level.png" alt=""><figcaption><p>This graph is showing the possibilities and will vary because it's random</p></figcaption></figure>
+
 ### Doubling
 
 ```javascript
@@ -74,6 +75,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Formula**: `Level = log2(XP + 1)`
 * **Growth**: _Exponential growth_.
   * This is similar to the exponential algorithm but with a slightly different formula. Growth starts rapid and slows down with increasing XP.
+
+<figure><img src="../../.gitbook/assets/doubling-level.png" alt=""><figcaption></figcaption></figure>
 
 ### Sigmoid
 
@@ -94,6 +97,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Formula**: `Level = XP / 1000`
 * **Growth**: _Stepwise growth_.
   * The level increases gradually but only in "steps." For every 1000 XP, the level increases by one.
+
+<figure><img src="../../.gitbook/assets/stepwise-level.png" alt=""><figcaption></figcaption></figure>
 
 ### Inverse
 
@@ -125,6 +130,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Levels from 1000 to 4999 XP**: Increase by 1 for every 200 XP, starting at level 10.
 * **Levels from 5000 XP onwards**: Increase by 1 for every 500 XP, starting at level 30.
 
+<figure><img src="../../.gitbook/assets/Tiered-level.png" alt=""><figcaption></figcaption></figure>
+
 ### Polynomial
 
 ```javascript
@@ -134,6 +141,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Formula**: `Level = 0.2 * XP^0.8`
 * **Growth**: _Polynomial growth_.
   * Growth starts slow, but as XP increases, it accelerates more quickly than linear growth.
+
+<figure><img src="../../.gitbook/assets/Polynominal-level.png" alt=""><figcaption></figcaption></figure>
 
 ### Log
 
@@ -145,6 +154,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Growth**: _Logarithmic growth_.
   * This type of growth increases quickly at first and then gradually levels off as XP increases.
 
+<figure><img src="../../.gitbook/assets/Log-level.png" alt=""><figcaption></figcaption></figure>
+
 ### Quadratic
 
 ```javascript
@@ -155,6 +166,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Growth**: _Square root growth_.
   * Initially, the growth is slow but increases progressively as XP increases.
 
+<figure><img src="../../.gitbook/assets/quadratic-level.png" alt=""><figcaption></figcaption></figure>
+
 ### cubicRoot
 
 ```javascript
@@ -164,6 +177,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Formula**: `Level = cbrt(XP)`
 * **Growth**: _Cubic root growth_.
   * Growth is even more gradual than square root growth, resulting in a very slow level-up at higher XP.
+
+<figure><img src="../../.gitbook/assets/cublicRoot-level.png" alt=""><figcaption></figcaption></figure>
 
 ### Fibonacci
 
@@ -182,6 +197,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Formula**: Uses the Fibonacci sequence where `F(n) = F(n-1) + F(n-2)`.
 * **Growth**: _Exponential growth (Fibonacci progression)_.
   * The Fibonacci sequence grows exponentially, but the rate of growth accelerates as the sequence progresses.
+
+<figure><img src="../../.gitbook/assets/Fibonacci-level.png" alt=""><figcaption></figcaption></figure>
 
 ### Geometric
 
@@ -203,6 +220,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Growth**: _Logistic growth (S-curve)_.
   * Initially, growth is slow, accelerates as XP reaches a certain point, and then levels off as XP continues to increase.
 
+<figure><img src="../../.gitbook/assets/Logistic-level.png" alt=""><figcaption></figcaption></figure>
+
 ### PowerLaw
 
 ```javascript
@@ -212,6 +231,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Formula**: `Level = XP^p` (with a default power of `p = 1.5`)
 * **Growth**: _Power law growth_.
   * This type of growth is steep initially and becomes more gradual as XP increases.
+
+<figure><img src="../../.gitbook/assets/PowerLaw-level.png" alt=""><figcaption></figcaption></figure>
 
 ### Sinusoidal
 
@@ -243,6 +264,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Growth**: _Harmonic growth_.
   * This type of growth increases more slowly as XP increases, with diminishing returns for each additional XP point.
 
+<figure><img src="../../.gitbook/assets/harmonic-level.png" alt=""><figcaption></figcaption></figure>
+
 ### PiecewiseLinear
 
 ```javascript
@@ -259,6 +282,8 @@ linear: (xp) => Math.floor(xp / 100)
   * `Level = (XP - 5000) / 500 + 20` (if XP >= 5000)
 * **Growth**: _Piecewise linear growth_.
   * Similar to the tiered algorithm, but with different ranges for XP.
+
+<figure><img src="../../.gitbook/assets/piecewiselinear-level.png" alt=""><figcaption></figcaption></figure>
 
 ### QuadraticDecay
 
@@ -279,6 +304,8 @@ linear: (xp) => Math.floor(xp / 100)
 * **Formula**: `Level = log(XP + 1) / log(base)`
 * **Growth**: _Logarithmic growth with customizable base_.
   * This function uses a logarithmic curve but allows for the base to be changed to control the rate of growth.
+
+<figure><img src="../../.gitbook/assets/Logarithmic-level.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 The algorithims below this hint support max level which you can set by using l!set maxlevel value

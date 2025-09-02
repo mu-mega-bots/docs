@@ -1,16 +1,5 @@
 ---
 description: The best leveling bot
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Level

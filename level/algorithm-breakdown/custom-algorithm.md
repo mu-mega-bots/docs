@@ -1,16 +1,5 @@
 ---
 description: The advanced feature nobody asked for
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Custom Algorithm
@@ -20,7 +9,7 @@ This feature is quite advanced and requires knowledge of JavaScript
 
 This feature is also not heavily tested but does work
 
-## We do support max levels with custom algorithms.
+### We do support max levels with custom algorithms.
 {% endhint %}
 
 {% hint style="info" %}

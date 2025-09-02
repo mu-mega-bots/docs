@@ -1,16 +1,5 @@
 ---
 description: Devin your utility buddy for Revolt!
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Devin - Revolt

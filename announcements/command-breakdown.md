@@ -1,16 +1,5 @@
 ---
 description: Command Documentation
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: false
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Command Breakdown
@@ -35,7 +24,7 @@ The <> represent arguments and are only required within the create and remove pi
 
 `a!unsubscribe channel-id` use this to stop recieving announcemenets from a channel's announcement channel (works the same way as setannouncement just different function)
 
-`a!ping-[ping]` - replace [ping] with the name of the ping you wish to trigger. This is a server owner only command. Do not use the [] in the command.
+`a!ping-[ping]` - replace \[ping] with the name of the ping you wish to trigger. This is a server owner only command. Do not use the \[] in the command.
 
 {% hint style="info" %}
 In the command below \<true> represents the DM argument. If you put true you will receive a DM rather than a ping when the command to ping is used. The default value is false.
@@ -43,6 +32,6 @@ In the command below \<true> represents the DM argument. If you put true you wil
 
 `a!punsubscribe <name> <true>` - subscribe to a ping
 
-`a!psubscribe <name>` - unsubscribe from a ping
+`a!psubscribe <name>` - unsubscribe from a ping
 
 `a!pinglist` - list all the servers "pings" that you can subscribe to
