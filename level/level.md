@@ -4,13 +4,13 @@ description: The best leveling bot
 
 # Level
 
-Level is a leveling bot for Revolt
+Level is a leveling bot for Stoat
 
 {% embed url="https://mu-mega-bots.github.io/level/" %}
 Levels Website
 {% endembed %}
 
-{% embed url="https://app.revolt.chat/bot/01JD5XY5Q11YEDZH68P3JFQK8H" %}
+{% embed url="https://stoat.chat/bot/01JD5XY5Q11YEDZH68P3JFQK8H" %}
 Add Level to your Server
 {% endembed %}
 
