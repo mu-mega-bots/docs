@@ -37,6 +37,11 @@ reset: delete
   * xp \<add/remove> \<user>
   * algorithm \<algorithm>
   * calgorithm <"the algorithm">
+  * voicexp \<true|false>
+  * voicexpperminute \<number>
+  * voicexpinterval \<number>
+  * voicexprandom \<true|false>
+  * voicexprandomrange \<min> \<max>
 
 {% hint style="info" %}
 The argument within the <> block isn't required unless you are targeting a specific user. If you do not provide the argument the reset is for **the entire server**
