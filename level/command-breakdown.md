@@ -159,3 +159,25 @@ The calgorithm setting allows you to define a custom algorithm. Read more below.
 `l!reset xp 01H2XFFCRQKEKY3ZXS45GW4ERH`
 
 The same format applies to the other commands just replace `xp` with `levels` or `all`
+
+
+
+## Voice
+
+This is the section relating to voice
+
+### voicexp&#x20;
+
+This will enable voicexp so if it's enabled your users can earn XP from being in voice channels&#x20;
+
+#### Example
+
+`l!set voicexp true`
+
+### voicexpperminute
+
+How much XP do you want people to earn from a voice channel per minute?
+
+#### Example
+
+`l!set voicexpperminute 3`
