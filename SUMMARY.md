@@ -24,7 +24,7 @@
 
 ## Devin
 
-* [Devin - Revolt](devin/devin-revolt.md)
+* [Devin - Stoat](devin/devin-revolt.md)
 * [Revolt Version](devin/revolt-version/README.md)
   * [Command Breakdown](devin/revolt-version/command-breakdown/README.md)
     * [Bot Category](devin/revolt-version/command-breakdown/bot-category.md)
