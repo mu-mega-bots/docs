@@ -1,5 +1,21 @@
 ---
 description: Welcome to the docs!
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
 ---
 
 # Index
@@ -20,6 +36,10 @@ We highly recommend checking the [<mark style="color:green;">Mega Bots Site</mar
 
 {% content-ref url="devin/devin-revolt.md" %}
 [devin-revolt.md](devin/devin-revolt.md)
+{% endcontent-ref %}
+
+{% content-ref url="/broken/pages/YGOz2zfrhI0QjoY1vu04" %}
+[Broken link](/broken/pages/YGOz2zfrhI0QjoY1vu04)
 {% endcontent-ref %}
 
 ## More to come

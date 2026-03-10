@@ -38,3 +38,9 @@
     * [inviteBlocker](devin/revolt-version/modules/inviteblocker.md)
     * [monitorJoinsLeaves](devin/revolt-version/modules/monitorjoinsleaves.md)
     * [translater](devin/revolt-version/modules/translater.md)
+
+## Bridger
+
+* [Bridger](bridger/bridger.md)
+* [Adapters](bridger/adapters/README.md)
+  * [Matrix Adapter](bridger/adapters/matrix-adapter.md)
